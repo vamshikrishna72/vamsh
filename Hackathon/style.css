@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('green-environmental-background.avif');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 80vh;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  header {
+    text-align: center;
+    padding: 50px 0;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #006600;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #333;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  a {
+    border-radius: 16px;
+    padding: 8px;
+    background-color:rgba(49, 227, 174, 0.8);
+    text-decoration: none;
+    font: bold;
+    margin-left: 20px;
+  }
+  
+  a:hover {
+    color: #00796b;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #43a047;
+  }
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
